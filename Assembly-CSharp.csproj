@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{50363C6F-4A63-1BB4-BA6B-2933FF16C73B}</ProjectGuid>
+    <ProjectGuid>{D7AA1EF2-F370-CBD4-8106-80A946DF8713}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -62,19 +62,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\CuboideMovement.cs" />
+    <Compile Include="Assets\FollowPlayerCamera.cs" />
     <Compile Include="Assets\GrassRoadRace\Script\CameraMove.cs" />
+    <Compile Include="Assets\PlayerColision.cs" />
     <Compile Include="Assets\PlayerMovement.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Joguinhos/Test Game/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Joguinhos/Apoop/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Joguinhos/Test Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Joguinhos/Apoop/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Joguinhos/Test Game/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Joguinhos/Apoop/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Joguinhos/Test Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Joguinhos/Apoop/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
