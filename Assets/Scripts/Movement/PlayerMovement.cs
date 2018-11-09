@@ -27,6 +27,12 @@ public class PlayerMovement : MonoBehaviour {
         {
             rg.AddForce(0, upwardForce * Time.deltaTime, 0);
         }
+
+        if (rg.position.y < -1)
+        {
+            FindObjectOfType<GameManager>().EndGame();
+        }
+
     }
 
     

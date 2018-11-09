@@ -7,17 +7,15 @@ public class PlayerColision : MonoBehaviour {
 
     void OnCollisionEnter(Collision collisionInfo)
     {
-        if (collisionInfo.collider.tag == "Obstacle")
-        {
-            Debug.Log("You hit an obstacle");
-        }
-
+ 
         if (collisionInfo.collider.tag == "Enemy")
         {
             movement.enabled = false;
             movement2.enabled = false;
             Debug.Log("You Lost");
+            FindObjectOfType<GameManager>().EndGame();
         }
+
     }
 
 }
