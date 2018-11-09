@@ -4,12 +4,15 @@ public class PlayerMovement : MonoBehaviour {
 
     public Rigidbody rg;
 
-    public int sidewaysForce = 500;
-    public int upwardForce = 5000;
+    public int sidewaysForce = 700;
+    public int forwardForce = 700;
+    public int upwardForce = 3000;
 
     // Update is called once per frame
     void FixedUpdate()
     {
+        rg.AddForce(forwardForce * Time.deltaTime, 0, 0);
+
         if (Input.GetKey("s"))
         {
             rg.AddForce(-sidewaysForce * Time.deltaTime, 0, 0);
